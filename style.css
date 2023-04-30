@@ -1,0 +1,31 @@
+.right { float:right; margin:0 10px 0 20px; } // marge = haut,droite,bas,gauche
+.left { float:left; margin:0 10px 0 20px; } // marge = haut,droite,bas,gauche
+.exemple { margin: 10px; }
+
+table { 
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        color : black;
+        font-weight: bold;
+}
+table{
+  border-collapse: collapse
+}
+.stock {
+color: red;
+font-weight: bold;
+text-decoration: underline;
+}
+.produit {
+text-align: center;
+font-weight: bold;
+}
+.titre  {
+text-align: center;
+font-weight: bold;
+}
