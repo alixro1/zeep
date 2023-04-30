@@ -29,3 +29,99 @@ font-weight: bold;
 text-align: center;
 font-weight: bold;
 }
+/* Magasin */
+  footer {
+    padding: 20px;
+    text-align: center;
+    color: #E3E3E3;
+    margin: 10px;
+  }
+  p {
+      display: block;
+      text-align: center;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+  }
+  
+    .sub-links ul {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(3, 1fr);
+      text-align:center
+      margin:auto
+    }
+  
+      .sub-links ul {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+      font-size: 15px;
+    }
+/* Film */
+.main-container {
+  padding: 3px;
+}
+
+
+
+
+.pre a {
+  transition: transform .3s;
+  text-align: center;
+color : white;
+}
+
+
+
+
+}
+.pre img {
+  border-radius: 20px;
+}
+
+img {
+width:185px;
+height:280px;
+}
+
+h1 {
+  padding-top: 60px;  
+}
+
+h2 {
+  color : white;
+  font-size: 110%;
+  white-space: nowrap;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+	}
+
+@media handheld and (max-width: 860px){
+  
+  .pre {
+      display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, minmax(100px, 1fr));
+  }
+  
+}
+@media screen,tv,projection and (max-width: 560px){
+  
+  .pre {
+      display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
+  }
+  
+}
