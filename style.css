@@ -1,4 +1,4 @@
-.right { float:right; margin:0 10px 0 20px; } // marge = haut,droite,bas,gauche
+.right { float:right; margin:0 10px 0 20px;width="40";height="40"; } // marge = haut,droite,bas,gauche
 .left { float:left; margin:0 10px 0 20px; } // marge = haut,droite,bas,gauche
 .exemple { margin: 10px; }
 
@@ -29,9 +29,6 @@ font-weight: bold;
 text-align: center;
 font-weight: bold;
 }
-.right {
-	width="40";
-	height="40";
 }
 /* Magasin */
   footer {
