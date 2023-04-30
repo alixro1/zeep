@@ -16,6 +16,12 @@ td {
 table{
   border-collapse: collapse
 }
+.loupe {
+	float:right;
+	margin:0 10px 0 20px;
+	width="40";
+	height="40";
+}
 .stock {
 color: red;
 font-weight: bold;
