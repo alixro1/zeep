@@ -42,3 +42,6 @@ header {
   text-decoration: none;
   color: black;
 }
+.videoHeader {
+position:relative;
+}
